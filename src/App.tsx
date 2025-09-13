@@ -7,6 +7,7 @@ import CategoryFilter from './components/CategoryFilter';
 import ProductList from './components/ProductList';
 import CartSidebar from './components/CartSidebar';
 import AppointmentCompletion from './components/AppointmentCompletion';
+import Footer from './components/footer';
 import './index.css'
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
               <SearchBar />
               <CategoryFilter />
               <ProductList />
+              <Footer/>
             </>
           ) : (
             <AppointmentCompletion />
