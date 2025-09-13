@@ -14,7 +14,7 @@ const AppointmentCompletion: React.FC = () => {
   const dispatch = useAppDispatch();
   const { products, billingSummary, bookingId } = useAppSelector(state => state.appointment);
 
-  const { register, handleSubmit, formState: { errors } } = useForm({
+  const { formState: { } } = useForm({
     resolver: yupResolver(schema)
   });
 
